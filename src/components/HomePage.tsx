@@ -2,13 +2,14 @@
 import React from "react";
 import TechIcons from "./TechIcons";
 
-
 function HomePage() {
   return (
     <div className="p-10">
       <div className="dark:text-white text-black">
         <span className="text-5xl">👋</span>
-        <h1 className="font-mono text-2xl lg:text-4xl">Hello there! I'm Shivendra Kumar Pandey</h1>
+        <h1 className="font-mono text-2xl lg:text-4xl">
+          Hello there! I&apos;m Shivendra Kumar Pandey
+        </h1>
       </div>
 
       <div className="dark:text-white text-black">
