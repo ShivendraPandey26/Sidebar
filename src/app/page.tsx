@@ -72,7 +72,7 @@ const Home = () => {
                 href: "#",
                 icon: (
                   <Image
-                    src="https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg" 
+                    src="" 
                     className="h-7 w-7 flex-shrink-0 rounded-full"
                     width={50}
                     height={50}
