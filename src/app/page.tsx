@@ -14,7 +14,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import Dashboard from "@/components/Dashboard";
 
-function Home() {  // Updated function name to Home
+const Home = () => {
   const links = [
     {
       label: "Dashboard",
@@ -45,7 +45,9 @@ function Home() {  // Updated function name to Home
       ),
     },
   ];
+
   const [open, setOpen] = useState(false);
+
   return (
     <div
       className={cn(
@@ -85,9 +87,9 @@ function Home() {  // Updated function name to Home
       <Dashboard />
     </div>
   );
-}
+};
 
-export const Logo = () => {
+const Logo = () => {
   return (
     <Link
       href="#"
@@ -105,7 +107,7 @@ export const Logo = () => {
   );
 };
 
-export const LogoIcon = () => {
+const LogoIcon = () => {
   return (
     <Link
       href="#"
