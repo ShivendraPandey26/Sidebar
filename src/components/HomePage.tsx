@@ -23,65 +23,6 @@ function HomePage() {
       </div>
 
       <TechIcons /> 
-
-      {/* <div className="flex flex-wrap bg-white">
-      <img
-        alt="Next.js"
-        loading="lazy"
-        width={200}
-        height={200}
-        className="object-contain mr-4 mb-4 h-10 w-14"
-        src="https://sidefolio.vercel.app/_next/image?url=%2Fimages%2Flogos%2Fnext.png&w=256&q=75"
-      />
-      <img
-        alt="AWS"
-        loading="lazy"
-        width={200}
-        height={200}
-        className="object-contain mr-4 mb-4 h-10 w-10"
-        src="https://sidefolio.vercel.app/_next/image?url=%2Fimages%2Flogos%2Faws.webp&w=256&q=75"
-      />
-      <img
-        alt="Figma"
-        loading="lazy"
-        width={200}
-        height={200}
-        className="object-contain mr-4 mb-4 h-10 w-8"
-        src="https://sidefolio.vercel.app/_next/image?url=%2Fimages%2Flogos%2Ffigma.png&w=256&q=75"
-      />
-      <img
-        alt="Framer Motion"
-        loading="lazy"
-        width={200}
-        height={200}
-        className="object-contain mr-4 mb-4 h-10 w-10"
-        src="https://sidefolio.vercel.app/_next/image?url=%2Fimages%2Flogos%2Fframer.webp&w=256&q=75"
-      />
-      <img
-        alt="Node"
-        loading="lazy"
-        width={200}
-        height={200}
-        className="object-contain mr-4 mb-4 h-10 w-12"
-        src="https://sidefolio.vercel.app/_next/image?url=%2Fimages%2Flogos%2Fnode.png&w=256&q=75"
-      />
-      <img
-        alt="Tailwind"
-        loading="lazy"
-        width={200}
-        height={200}
-        className="object-contain mr-4 mb-4 h-10 w-24"
-        src="https://sidefolio.vercel.app/_next/image?url=%2Fimages%2Flogos%2Ftailwind.png&w=256&q=75"
-      />
-      <img
-        alt="Vercel"
-        loading="lazy"
-        width={200}
-        height={200}
-        className="object-contain mr-4 mb-4 h-10 w-24"
-        src="https://sidefolio.vercel.app/_next/image?url=%2Fimages%2Flogos%2Fvercel.png&w=256&q=75"
-      />
-    </div> */}
     </div>
   );
 }
