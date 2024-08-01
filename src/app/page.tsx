@@ -14,7 +14,7 @@ import Image from "next/image";
 import { cn } from "@/lib/utils";
 import Dashboard from "@/components/Dashboard";
 
-function home() {
+function Home() {  // Updated function name to Home
   const links = [
     {
       label: "Dashboard",
@@ -70,7 +70,7 @@ function home() {
                 href: "#",
                 icon: (
                   <Image
-                    src="" 
+                    src="https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg" 
                     className="h-7 w-7 flex-shrink-0 rounded-full"
                     width={50}
                     height={50}
@@ -104,6 +104,7 @@ export const Logo = () => {
     </Link>
   );
 };
+
 export const LogoIcon = () => {
   return (
     <Link
@@ -115,5 +116,4 @@ export const LogoIcon = () => {
   );
 };
 
-
-export default home;
+export default Home;
