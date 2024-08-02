@@ -84,7 +84,7 @@ const Home = () => {
           <div>
             <SidebarLink
               link={{
-                label: "Manu Arora",
+                label: "Shivendra pandey",
                 href: "#",
                 icon: (
                   <Image
@@ -117,7 +117,7 @@ const Logo = () => {
         animate={{ opacity: 1 }}
         className="font-medium text-black dark:text-white whitespace-pre"
       >
-        Acet Labs
+        Shivendra Pandey
       </motion.span>
     </Link>
   );
